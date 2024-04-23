@@ -437,27 +437,77 @@ table {
   box-sizing: border-box;
 }
 
-/* @font-face
-    font-family: 'TTNormsPro'
-    src: url(../fonts/TTNormsPro-Medium.ttf)
-    font-weight: 500
-    font-style: normal
-    font-display: swap */
-/* line 14, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+@font-face {
+  font-family: 'TTNormsPro';
+  src: url(../fonts/TTNormsPro-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTNormsPro';
+  src: url(../fonts/TTNormsPro-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTNormsPro';
+  src: url(../fonts/TTNormsPro-Thin.ttf);
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTNormsPro';
+  src: url(../fonts/TTNormsPro-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTNormsPro';
+  src: url(../fonts/TTNormsPro-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTNormsPro';
+  src: url(../fonts/TTNormsPro-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTNormsPro';
+  src: url(../fonts/TTNormsPro-ExtraBlack.ttf);
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 56, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 html {
   font-family: 'TTNormsPro', sans-serif;
   font-weight: 400;
   overflow-x: hidden;
 }
 
-/* line 19, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 61, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 body {
   background: #E2E4E8;
   position: relative;
   overflow-x: hidden;
 }
 
-/* line 27, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 69, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .container {
   max-width: 1680px;
   position: relative;
