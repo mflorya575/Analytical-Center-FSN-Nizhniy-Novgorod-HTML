@@ -63,8 +63,8 @@ body
     position: relative
     overflow-x: hidden
 
-$button-color-blue: rgb(219, 174, 139)
-$button-border-color-blue: rgb(219, 174, 139)
+$button-color-blue: rgb(18, 104, 169)
+$button-border-color-blue: rgb(18, 104, 169)
 
 .container
     max-width: 1680px
@@ -85,9 +85,9 @@ $button-border-color-blue: rgb(219, 174, 139)
     &-link_margin2
         margin-right: 200px
     &-link_margin3
-        margin-right: 99px
+        margin-right: 45px
     &-link_margin4
-        margin-left: 99px
+        margin-left: 45px
     &-link_margin5
         margin-left: 162px
     &-link_margin6
@@ -102,7 +102,7 @@ $button-border-color-blue: rgb(219, 174, 139)
         font-weight: 400
         line-height: 24px
     &-block1-link_custom
-        color: rgb(219, 174, 139)
+        color: rgb(245, 235, 233)
         font-size: 20px
         font-weight: 400
         line-height: 24px
@@ -161,7 +161,7 @@ a:hover span
     display: none
     position: absolute
     border-radius: 12px
-    background: #f1decf
+    background: rgb(245, 235, 233)
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
     z-index: 1
     top: 100%
@@ -187,12 +187,83 @@ a:hover span
     line-height: 24px
     margin-top: 20px
 
+.main-section
+    min-height: 990px
+    background-image: url(../images/bg-main.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center 
+    &-block
+        position: sticky
+        z-index: 2
+        margin-top: 147px
+    &_title
+        text-align: center
+        color: rgb(226, 228, 232)
+        font-size: 45px
+        font-weight: 500
+        line-height: 54px
+        margin-bottom: 21px
+    &_text
+        text-align: center
+        color: rgb(245, 235, 233)
+        font-size: 24px
+        font-weight: 300
+        line-height: 29px
+        margin-bottom: 38px
+    &_links
+        text-align: center
+    &_link-button1
+        margin-right: 37px
+        color: rgb(245, 235, 233)
+        font-size: 24px
+        font-weight: 500
+        line-height: 29px
+        background: $button-color-blue
+        border: none
+        padding: 17px 62px
+        transition: .3s all
+        &:hover
+            cursor: pointer
+            background: rgb(37, 121, 184)
+    &_link-button2
+        color: rgb(245, 235, 233)
+        font-size: 24px
+        font-weight: 500
+        line-height: 29px
+        border: 2px solid $button-border-color-blue
+        padding: 17px 62px
+        background: rgba(18, 104, 169, 0.45)
+        transition: .3s all
+        &:hover
+            cursor: pointer
+            background: rgba(18, 104, 169, 0.15)
+
+.overlay
+    width: 1000%
+    height: 164%
+    background: linear-gradient(180.00deg, rgba(3, 53, 91, 0.9) 8.478%,rgba(115, 115, 115, 0) 207.696%)
+    position: absolute
+    top: 0
+    left: -10000px
+    z-index: 0
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 .footer-section
     min-height: 1050px
-    background: rgb(74, 66, 60)
+    background: rgb(31, 61, 83)
     &__wrapper_main
         display: flex
         margin-bottom: 165px
