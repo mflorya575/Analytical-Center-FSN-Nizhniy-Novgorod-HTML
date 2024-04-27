@@ -1272,4 +1272,76 @@ a:hover span {
   letter-spacing: 0%;
 }
 
+/*********** 403, 404, 500 and other error pages ***********/
+/* line 555, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.error-section__p1 {
+  font-size: 192px;
+  font-weight: 800;
+  line-height: 230px;
+  margin-top: -90px;
+}
+
+/* line 560, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.error-section__p2 {
+  color: #1a120b;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  margin-bottom: 30px;
+}
+
+/* line 566, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.error-section__button {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  border-radius: 15px;
+  padding: 12px 34px;
+  border: none;
+  background: #1268a9;
+  transition: .3s all;
+}
+
+/* line 576, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.error-section__button:hover {
+  background: #3c8dca;
+}
+
+/* line 578, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.error-section__dev {
+  color: #1a120b;
+  font-size: 59px;
+  font-weight: 800;
+  line-height: 116.89%;
+  letter-spacing: 4%;
+  margin-bottom: 19px;
+  margin-top: 19px;
+}
+
+/* line 586, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.error-section__dev-text {
+  color: #1a120b;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+/* line 593, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+#error-section__span {
+  color: #1268a9;
+}
+
+/* line 596, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.error-block {
+  text-align: center;
+  margin-top: 110px;
+}
+
+/* line 600, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.error-pencil {
+  margin-left: -35px;
+}
+
 /*# sourceMappingURL=style.css.map */
