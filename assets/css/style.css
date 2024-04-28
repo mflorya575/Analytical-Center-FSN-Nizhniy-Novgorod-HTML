@@ -507,7 +507,24 @@ body {
   overflow-x: hidden;
 }
 
-/* line 71, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 66, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+body::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* line 69, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+body::-webkit-scrollbar-track {
+  background: #5c9ed1;
+}
+
+/* line 72, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+body::-webkit-scrollbar-thumb {
+  background-color: #0f4670;
+  border-radius: 20px;
+  border: 1px solid #0a263c;
+}
+
+/* line 82, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .container {
   max-width: 1680px;
   position: relative;
@@ -516,7 +533,7 @@ body {
 }
 
 /*********** index ***********/
-/* line 79, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 90, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .header {
   padding-top: 52px;
   display: flex;
@@ -525,47 +542,47 @@ body {
   z-index: 2;
 }
 
-/* line 85, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 96, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .header-link_margin1 {
   margin-right: 200px;
 }
 
-/* line 87, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 98, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .header-link_margin2 {
   margin-right: 200px;
 }
 
-/* line 89, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 100, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .header-link_margin3 {
   margin-right: 45px;
 }
 
-/* line 91, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 102, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .header-link_margin4 {
   margin-left: 45px;
 }
 
-/* line 93, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 104, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .header-link_margin5 {
   margin-left: 162px;
 }
 
-/* line 95, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 106, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .header-link_margin6 {
   margin-left: 162px;
 }
 
-/* line 97, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 108, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .header-block1-ul1 {
   display: flex;
 }
 
-/* line 99, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 110, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .header-block3-ul2 {
   display: flex;
 }
 
-/* line 101, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 112, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .header-block1-link {
   color: #f5ebe9;
   font-size: 20px;
@@ -573,7 +590,7 @@ body {
   line-height: 24px;
 }
 
-/* line 106, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 117, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .header-block1-link_custom {
   color: #f5ebe9;
   font-size: 20px;
@@ -582,12 +599,12 @@ body {
   white-space: nowrap;
 }
 
-/* line 112, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 123, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .header-block1-link_custom:hover {
   color: #e1d9d8;
 }
 
-/* line 115, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 126, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 a {
   overflow: hidden;
   position: relative;
@@ -595,7 +612,7 @@ a {
   text-decoration: none;
 }
 
-/* line 122, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 133, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 a::after {
   content: '';
   position: absolute;
@@ -603,7 +620,7 @@ a::after {
   left: 0;
 }
 
-/* line 128, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 139, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 a::before {
   background-color: #ebcec8;
   height: 2px;
@@ -613,7 +630,7 @@ a::before {
   transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
-/* line 136, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 147, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 a::after {
   content: attr(data-replace);
   height: 100%;
@@ -624,34 +641,34 @@ a::after {
   color: #f5ebe9;
 }
 
-/* line 145, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 156, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 a:hover::before {
   transform-origin: 0% 50%;
   transform: scaleX(1);
 }
 
-/* line 149, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 160, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 a:hover::after {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 152, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 163, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 a span {
   display: inline-block;
   transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
-/* line 156, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 167, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 a:hover span {
   transform: translate3d(-200%, 0, 0);
 }
 
-/* line 159, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 170, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .dropdown {
   position: relative;
 }
 
-/* line 162, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 173, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -664,7 +681,7 @@ a:hover span {
   width: 160px;
 }
 
-/* line 173, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 184, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .dropdown-content a {
   display: block;
   padding: 10px 20px;
@@ -673,17 +690,17 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 179, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 190, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .dropdown-content a:hover {
   color: #e19a64;
 }
 
-/* line 182, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 193, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* line 185, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 196, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .dropdown-custom {
   color: #dbae8b;
   font-size: 20px;
@@ -692,7 +709,7 @@ a:hover span {
   margin-top: 20px;
 }
 
-/* line 192, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 203, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .main-section {
   min-height: 990px;
   background-image: url(../images/bg-main.jpeg);
@@ -701,14 +718,14 @@ a:hover span {
   background-position: center;
 }
 
-/* line 198, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 209, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .main-section-block {
   position: sticky;
   z-index: 2;
   margin-top: 147px;
 }
 
-/* line 202, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 213, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .main-section_title {
   text-align: center;
   color: #e2e4e8;
@@ -718,7 +735,7 @@ a:hover span {
   margin-bottom: 21px;
 }
 
-/* line 209, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 220, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .main-section_text {
   text-align: center;
   color: #f5ebe9;
@@ -728,12 +745,12 @@ a:hover span {
   margin-bottom: 38px;
 }
 
-/* line 216, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 227, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .main-section_links {
   text-align: center;
 }
 
-/* line 218, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 229, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .main-section_link-button1 {
   margin-right: 37px;
   color: #f5ebe9;
@@ -746,13 +763,13 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 228, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 239, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .main-section_link-button1:hover {
   cursor: pointer;
   background: #2579b8;
 }
 
-/* line 231, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 242, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .main-section_link-button2 {
   color: #f5ebe9;
   font-size: 24px;
@@ -764,13 +781,13 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 240, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 251, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .main-section_link-button2:hover {
   cursor: pointer;
   background: rgba(18, 104, 169, 0.15);
 }
 
-/* line 244, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 255, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .overlay {
   width: 1000%;
   height: 164%;
@@ -781,13 +798,13 @@ a:hover span {
   z-index: 0;
 }
 
-/* line 253, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 264, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .second-section {
   min-height: 770px;
   margin-top: 120px;
 }
 
-/* line 256, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 267, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .second-section__title {
   color: #1a120b;
   font-size: 45px;
@@ -797,7 +814,7 @@ a:hover span {
   margin-bottom: 60px;
 }
 
-/* line 263, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 274, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .second-section__button {
   color: #f5ebe9;
   font-size: 24px;
@@ -812,17 +829,17 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 275, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 286, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .second-section__button:hover {
   background: #3c8dca;
 }
 
-/* line 277, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 288, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .second-section__button-link {
   display: block;
 }
 
-/* line 280, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 291, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .carousel-custom {
   border: 4px solid #1268a9;
   border-radius: 37px;
@@ -831,7 +848,7 @@ a:hover span {
   margin-bottom: 68px;
 }
 
-/* line 287, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 298, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .carousel-img {
   width: 408px;
   height: 450px;
@@ -839,12 +856,12 @@ a:hover span {
   margin: 32px 47px 32px 67px;
 }
 
-/* line 293, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 304, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .carousel-block_texts {
   margin: 0;
 }
 
-/* line 296, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 307, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .carousel-block_title {
   color: #1a120b;
   font-size: 40px;
@@ -854,7 +871,7 @@ a:hover span {
   margin-bottom: 22px;
 }
 
-/* line 304, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 315, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .carousel-block_description {
   color: #1a120b;
   font-size: 24px;
@@ -865,7 +882,7 @@ a:hover span {
   margin-right: 35px;
 }
 
-/* line 313, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 324, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .carousel-block_time {
   text-align: end;
   color: #1a120b;
@@ -876,7 +893,7 @@ a:hover span {
   margin-right: 28px;
 }
 
-/* line 322, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 333, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .carousel-right {
   margin-left: 180px;
   background: rgba(23, 87, 135, 0.83);
@@ -886,7 +903,7 @@ a:hover span {
   font-size: 24px;
 }
 
-/* line 330, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 341, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .carousel-left {
   margin-right: 180px;
   background: rgba(23, 87, 135, 0.83);
@@ -896,13 +913,13 @@ a:hover span {
   font-size: 24px;
 }
 
-/* line 338, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 349, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section {
   min-height: 500px;
   margin-top: 120px;
 }
 
-/* line 341, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 352, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__title {
   color: #1a120b;
   font-size: 45px;
@@ -912,7 +929,7 @@ a:hover span {
   margin-bottom: 61px;
 }
 
-/* line 348, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 359, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__wrapper {
   display: flex;
   gap: 62px;
@@ -923,7 +940,7 @@ a:hover span {
   padding-bottom: 70px;
 }
 
-/* line 356, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 367, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__text {
   color: #1a120b;
   font-size: 40px;
@@ -934,7 +951,7 @@ a:hover span {
   text-align: center;
 }
 
-/* line 364, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 375, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__text2 {
   color: #1a120b;
   font-size: 38px;
@@ -945,87 +962,87 @@ a:hover span {
   text-align: center;
 }
 
-/* line 372, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 383, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img1 {
   margin-left: 40px;
 }
 
-/* line 374, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 385, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img2 {
   margin-left: 0;
 }
 
-/* line 376, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 387, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img3 {
   margin-left: 0;
 }
 
-/* line 378, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 389, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img4 {
   margin-left: 0;
 }
 
-/* line 380, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 391, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img5 {
   margin-left: 0;
 }
 
-/* line 382, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 393, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img6 {
   margin-left: 40px;
 }
 
-/* line 384, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 395, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img7 {
   margin-left: 0;
 }
 
-/* line 386, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 397, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img8 {
   margin-left: 0;
 }
 
-/* line 388, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 399, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img9 {
   margin-left: 90px;
 }
 
-/* line 390, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 401, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img10 {
   margin-left: 20px;
 }
 
-/* line 392, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 403, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img11 {
   margin-left: 100px;
 }
 
-/* line 394, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 405, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img12 {
   margin-left: 110px;
 }
 
-/* line 396, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 407, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img13 {
   margin-left: 100px;
 }
 
-/* line 398, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 409, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img14 {
   margin-left: 85px;
 }
 
-/* line 400, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 411, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img15 {
   margin-left: 85px;
 }
 
-/* line 402, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 413, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__img16 {
   margin-left: 85px;
 }
 
-/* line 404, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 415, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__card {
   width: 520px;
   height: 569px;
@@ -1040,34 +1057,34 @@ a:hover span {
   flex-shrink: 0;
 }
 
-/* line 416, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 427, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__card:hover {
   cursor: pointer;
 }
 
-/* line 419, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 430, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .third-section__wrapper::-webkit-scrollbar {
   scrollbar-width: none;
 }
 
-/* line 422, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 433, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 #card-text__margin {
   margin-bottom: 10px;
 }
 
-/* line 425, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 436, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .card-last__margin {
   margin-right: 20px;
 }
 
-/* line 428, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 439, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .fifth-section {
   min-height: 610px;
   margin-top: 90px;
   margin-bottom: 211px;
 }
 
-/* line 432, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 443, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .fifth-section__wrapper1 {
   margin-bottom: 151px;
   display: flex;
@@ -1075,14 +1092,14 @@ a:hover span {
   justify-content: space-between;
 }
 
-/* line 437, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 448, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .fifth-section__wrapper2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* line 441, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 452, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .fifth-section__title {
   color: black;
   font-size: 45px;
@@ -1091,13 +1108,13 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 447, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 458, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .fifth-section__hr {
   width: 130px;
   border: 1px solid #1268a9;
 }
 
-/* line 450, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 461, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .fifth-section__text {
   color: #1a120b;
   font-size: 28px;
@@ -1106,18 +1123,18 @@ a:hover span {
   letter-spacing: 3%;
 }
 
-/* line 456, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 467, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .fifth-section__text_margin {
   margin-bottom: 64px;
 }
 
-/* line 458, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 469, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .fifth-section__buttons {
   display: flex;
   gap: 30px;
 }
 
-/* line 461, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 472, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .fifth-section__button1 {
   color: #f5ebe9;
   font-size: 24px;
@@ -1130,12 +1147,12 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 471, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 482, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .fifth-section__button1:hover {
   background: #3c8dca;
 }
 
-/* line 473, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 484, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .fifth-section__button2 {
   color: #1268a9;
   font-size: 24px;
@@ -1148,55 +1165,55 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 483, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 494, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .fifth-section__button2:hover {
   color: #f5ebe9;
   background: #1268a9;
 }
 
-/* line 487, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 498, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section {
   min-height: 1050px;
   background: #1f3d53;
 }
 
-/* line 490, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 501, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__wrapper_main {
   display: flex;
   margin-bottom: 165px;
   justify-content: space-between;
 }
 
-/* line 494, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 505, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__wrapper1 {
   padding-top: 45px;
   margin-right: 85px;
 }
 
-/* line 497, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 508, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__wrapper2 {
   padding-top: 45px;
   margin-right: 23px;
 }
 
-/* line 500, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 511, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__wrapper3 {
   padding-top: 45px;
   margin-right: 23px;
 }
 
-/* line 503, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 514, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__wrapper4 {
   padding-top: 45px;
   margin-right: 73px;
 }
 
-/* line 506, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 517, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__wrapper5 {
   padding-top: 45px;
 }
 
-/* line 508, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 519, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__text {
   color: #f5ebe9;
   font-size: 28px;
@@ -1206,12 +1223,12 @@ a:hover span {
   margin-top: 16px;
 }
 
-/* line 515, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 526, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__span {
   font-weight: 300;
 }
 
-/* line 517, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 528, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__h6 {
   margin-bottom: 16px;
   color: #f5ebe9;
@@ -1221,12 +1238,12 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 524, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 535, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__li {
   list-style-type: none;
 }
 
-/* line 526, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 537, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__link {
   margin-bottom: 16px;
   color: #f5ebe9;
@@ -1236,34 +1253,34 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 533, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 544, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__link:hover {
   text-decoration: underline;
 }
 
-/* line 535, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 546, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__strelka {
   transition: .3s all;
 }
 
-/* line 537, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 548, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__strelka:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   border-radius: 30%;
   cursor: pointer;
 }
 
-/* line 541, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 552, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__last-info {
   padding-bottom: 36px;
 }
 
-/* line 543, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 554, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__hr {
   border: 1px solid #f5ebe9;
 }
 
-/* line 545, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 556, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .footer-section__last-text {
   color: #f5ebe9;
   font-size: 16px;
@@ -1273,7 +1290,7 @@ a:hover span {
 }
 
 /*********** 403, 404, 500 and other error pages ***********/
-/* line 555, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 566, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .error-section__p1 {
   font-size: 192px;
   font-weight: 800;
@@ -1281,7 +1298,7 @@ a:hover span {
   margin-top: -90px;
 }
 
-/* line 560, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 571, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .error-section__p2 {
   color: #1a120b;
   font-size: 38px;
@@ -1290,7 +1307,7 @@ a:hover span {
   margin-bottom: 30px;
 }
 
-/* line 566, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 577, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .error-section__button {
   color: white;
   font-size: 24px;
@@ -1303,12 +1320,12 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 576, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 587, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .error-section__button:hover {
   background: #3c8dca;
 }
 
-/* line 578, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 589, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .error-section__dev {
   color: #1a120b;
   font-size: 59px;
@@ -1319,7 +1336,7 @@ a:hover span {
   margin-top: 19px;
 }
 
-/* line 586, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 597, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .error-section__dev-text {
   color: #1a120b;
   font-size: 30px;
@@ -1328,20 +1345,25 @@ a:hover span {
   margin-bottom: 30px;
 }
 
-/* line 593, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 604, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 #error-section__span {
   color: #1268a9;
 }
 
-/* line 596, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 607, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .error-block {
   text-align: center;
   margin-top: 110px;
 }
 
-/* line 600, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+/* line 611, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
 .error-pencil {
   margin-left: -35px;
+}
+
+/* line 614, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+#dev-pencil {
+  margin-left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

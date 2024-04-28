@@ -63,6 +63,17 @@ body
     position: relative
     overflow-x: hidden
 
+body::-webkit-scrollbar
+  width: 9px              /* ширина scrollbar */
+
+body::-webkit-scrollbar-track
+  background: rgb(92, 158, 209)     /* цвет дорожки */
+
+body::-webkit-scrollbar-thumb
+  background-color: rgb(15, 70, 112)  /* цвет плашки */
+  border-radius: 20px    /* закругления плашки */
+  border: 1px solid rgb(10, 38, 60)  /* padding вокруг плашки */
+
 $button-color-blue: rgb(18, 104, 169)
 $button-color-blue-hover: rgb(60, 141, 202)
 
@@ -599,3 +610,6 @@ a:hover span
 
 .error-pencil
     margin-left: -35px
+
+#dev-pencil
+    margin-left: 0
