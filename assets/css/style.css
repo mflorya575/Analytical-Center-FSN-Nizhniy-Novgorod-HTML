@@ -1983,4 +1983,149 @@ a:hover span {
   background: #3c8dca;
 }
 
+/*********** forgot-password.html ***********/
+/* line 1033, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section {
+  min-height: 230px;
+  margin-bottom: 150px;
+  margin-top: 140px;
+}
+
+/* line 1037, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__title {
+  color: #1a120b;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 39px;
+}
+
+/* line 1044, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__block2 {
+  display: grid;
+  justify-content: center;
+}
+
+/* line 1047, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__input1 {
+  width: 430px;
+  height: 42px;
+  background: none;
+  border: 1px solid #4a423c;
+  border-radius: 8px;
+  color: #4e4646;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  padding: 12px 0 12px 20px;
+  margin-bottom: 33px;
+}
+
+/* line 1059, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__input1::placeholder {
+  color: #4e4646;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+/* line 1064, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__input2 {
+  width: 180px;
+  height: 42px;
+  background: none;
+  border: 1px solid #4a423c;
+  border-radius: 8px;
+  color: #4e4646;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  padding: 12px 0 12px 20px;
+  margin-right: 126px;
+  margin-bottom: 33px;
+}
+
+/* line 1077, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__input2::placeholder {
+  color: #4e4646;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}
+
+/* line 1082, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__security-code {
+  border: 1px solid #4a423c;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+/* line 1086, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__login_footer5 {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+/* line 1090, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__login_footer {
+  display: flex;
+  margin-bottom: 39px;
+  justify-content: space-between;
+}
+
+/* line 1094, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__form-check-label {
+  color: #4e4646;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+/* line 1099, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__custome-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* line 1103, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__text-muted {
+  color: #1268a9;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+/* line 1108, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__text-muted:hover {
+  text-decoration: underline;
+}
+
+/* line 1110, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__form-group3 {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 1113, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__btn {
+  color: #f5ebe9;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  border-radius: 8px;
+  background: #1268a9;
+  border: none;
+  padding: 10px 31px;
+  transition: .3s all;
+}
+
+/* line 1123, ../python/course_fitst_project_django/shops/template-fsn/assets/sass/style.sass */
+.forgotp-section__btn:hover {
+  background: #3c8dca;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
